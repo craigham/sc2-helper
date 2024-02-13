@@ -14,4 +14,7 @@ implemented in Rust in order to have the same performance as C++ bots.
 
 ### How to build
 
-cargo build --release
+python3 -m venv .venv
+source .venv/bin/activate
+pip install maturin
+maturin build --release
