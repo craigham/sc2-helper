@@ -11,3 +11,7 @@ implemented in Rust in order to have the same performance as C++ bots.
 
 1. Change the version in [cargo.toml](cargo.toml) and push the changes
 2. Manually "Create a new release" with GitHub - this will trigger the workflow
+
+### How to build
+
+cargo build --release
